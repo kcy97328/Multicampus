@@ -1,4 +1,4 @@
-<pre>	
+<pre>
 😱💥 MVC 패턴       문서 클릭 → 소스
 ├─ src/main/java		
 | 	├─ mc.sn.controller
