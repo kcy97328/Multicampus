@@ -1,5 +1,5 @@
 <pre>	
-😱💥 MVC 패턴	
+😱💥 MVC 패턴       문서 클릭 → 소스
 ├─ src/main/java		
 | 	├─ mc.sn.controller
 |	|	└─ <a href ="https://github.com/kcy97328/Multicampus/blob/121a950c372ae3fe1e5d76c6eb62b39e463ee883/MVC/ControllerServlet.java">📝</a> ControllerServlet.java 
