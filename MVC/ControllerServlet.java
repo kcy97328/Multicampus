@@ -1,5 +1,3 @@
-[📘](https://github.com/kcy97328/Multicampus/blob/main/MVC/MVC.md)
-<a href="https://github.com/kcy97328/Multicampus/blob/main/MVC/MVC.md">📘상위폴더로 이동</a>
 package mc.sn.controller;
 
 import java.io.IOException;
@@ -49,7 +47,8 @@ public class ControllerServlet extends HttpServlet {
 }
 
 
-
+[📘](https://github.com/kcy97328/Multicampus/blob/main/MVC/MVC.md)
+<a href="https://github.com/kcy97328/Multicampus/blob/main/MVC/MVC.md">📘상위폴더로 이동</a>
 
 
 
