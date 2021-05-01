@@ -10,7 +10,7 @@
 
 4. BookDTO 객체 생성할 **`BookTest`** 클래스 작성. BookTest 결과 화면이 다음과 같이 출력되도록 **`BookDTO 클래스 객체 생성하여 toString()를 호출`**하는 main()를 작성하시오.
 
-<img src="C:\Users\young\Desktop\JAVA\캡처.PNG" alt="캡처" style="zoom:150%;" />
+<img src="https://github.com/kcy97328/Multicampus/blob/main/JAVA/%EC%BA%A1%EC%B2%98.PNG" alt="캡처" style="zoom:150%;" />
 
 
 
