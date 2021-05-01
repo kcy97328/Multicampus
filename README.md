@@ -17,7 +17,7 @@
 | 파트     | 바로가기 |
 | -------- | -------- |
 | 자바     | [JAVA](https://github.com/kcy97328/Multicampus/blob/main/JAVA/JAVA.md) |
-| Database | 1        |
+| Database | [오라클과 자바연동 및 활용 ](https://github.com/kcy97328/Multicampus/blob/main/DB/DataBase.md) |
 | Web      | [MVC](https://github.com/kcy97328/Multicampus/blob/main/MVC/MVC.md) |
 
 
