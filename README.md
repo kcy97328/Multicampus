@@ -16,10 +16,10 @@
 
 | 파트     | 바로가기 |
 | -------- | -------- |
-| 자바     | 1        |
+| 자바     | [JAVA](https://github.com/kcy97328/Multicampus/blob/main/JAVA/JAVA.md) |
 | Database | 1        |
-| Web      |          |
+| Web      | [MVC](https://github.com/kcy97328/Multicampus/blob/main/MVC/MVC.md) |
 
 
 
-[MVC](https://github.com/kcy97328/Multicampus/blob/main/MVC/MVC.md)
+
