@@ -2,7 +2,7 @@
 
 테이블 생성
 
-<img src="C:\Users\young\Desktop\정리\캡처.PNG" alt="캡처" style="zoom:150%;" />
+<img src="https://github.com/kcy97328/Multicampus/blob/main/DB/%EC%BA%A1%EC%B2%98.PNG" alt="캡처" style="zoom:150%;" />
 
 자바를 이용한 오라클(DB)
 
@@ -10,13 +10,14 @@
 
 ```java
 public class BookDTO {
-	private int isbn;									// private를 사용하여 접근을 제한(캡슐화)
-	private String title;								// 같은 클래스 내부에서만 접근가능
+	private int isbn;	// private를 사용하여 접근을 제한(캡슐화)
+	private String title;	// 같은 클래스 내부에서만 접근가능
 	private String author;
 	private String publisher;
 	private int price;
 	private String description;
-// 생성자
+	
+	// 생성자
 	public BookDTO(int isbn,String title,String author,String publisher,int price,String description) {
 		this.isbn = isbn;							
 		this.title = title;
@@ -25,8 +26,9 @@ public class BookDTO {
 		this.price = price;
 		this.description = description;
 	}
-// 값을 얻는 get()메소드  
-// 값을 지정하는 set()메소드
+	
+	// 값을 얻는 get()메소드  
+	// 값을 지정하는 set()메소드
 	public int getIsbn() {
 		return isbn;
 	}
@@ -75,8 +77,8 @@ public class BookDTO {
 		this.description = description;
 	}
 	
-	@Override								// toString() -기본 동작: 객체의 해시코드 출력
-	public String toString() {				// override 목적: 객체의 정보를 문자열 형태로 표현하고자 할 때		
+	@Override			// toString() -기본 동작: 객체의 해시코드 출력
+	public String toString() {	// override 목적: 객체의 정보를 문자열 형태로 표현하고자 할 때		
 		String info = String.format("|%d|%s\t|%s|%s|%d|%s",
             		  	this.isbn ,this.title, this.author, this.publisher, this.price, this.description );
 
@@ -85,8 +87,6 @@ public class BookDTO {
 }
 
 ```
-
-
 
 ### BookTest
 
@@ -155,13 +155,13 @@ public class BookTest {
 	}
 	
 	public void printAllBooks() throws ClassNotFoundException, SQLException {
-        // 컨넥션 취득(메소드 이용)
+      		// 컨넥션 취득(메소드 이용)
 		Connection con = this.getConnection();
-        // 쿼리 작성
+        	// 쿼리 작성
 		String sql = "select * from book";
-        // 쿼리 요청 통로 생성
+        	// 쿼리 요청 통로 생성
 		PreparedStatement pstmt = con.prepareStatement(sql);
-        // 쿼리 요청 및 결과 취득
+       	 	// 쿼리 요청 및 결과 취득
 		ResultSet rs = pstmt.executeQuery();
       
 		ArrayList<BookDTO> list = new ArrayList<BookDTO>();
@@ -185,16 +185,16 @@ public class BookTest {
 	
 	public Connection getConnection() throws ClassNotFoundException, SQLException {
 		Connection con = null;
-        // 오라클에 접속한다고 알려줌 @자신의 IP주소:포트번호:DB이름
+        	// 오라클에 접속한다고 알려줌 @자신의 IP주소:포트번호:DB이름
 		String jdbcURL = "jdbc:oracle:thin:@localhost:1521:xe";
 		String driver = "oracle.jdbc.OracleDriver";
-        // 접속할 계정명
+        	// 접속할 계정명
 		String id = "hr";
-        // 계정의 비밀번호
+        	// 계정의 비밀번호
 		String pwd = "1234";
 		// JDBC 드라이버(ojdbc6.jar)를 로딩하는 부분
 		Class.forName(driver);
-        // 입력된 오라클의 계정, 비밀번호, 주소를 바탕으로 오라클에 접속
+        	// 입력된 오라클의 계정, 비밀번호, 주소를 바탕으로 오라클에 접속
 		con = DriverManager.getConnection(jdbcURL,id,pwd);
 		// 자원을 닫아
 		return con;
