@@ -10,7 +10,7 @@
 
 ### BookDTO
 
-
+```java
 public class BookDTO {
 	private int isbn;	// private를 사용하여 접근을 제한(캡슐화)
 	private String title;	// 같은 클래스 내부에서만 접근가능
@@ -87,7 +87,7 @@ public class BookDTO {
 		return info;
 	}
 }
-
+```
 
 
 ### BookTest
