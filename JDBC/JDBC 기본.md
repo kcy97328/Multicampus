@@ -22,8 +22,8 @@ Statement st = con.createStatement();
 ResultSet rs = st.executeQuery(sql);
 
 while(rs.next()){
-    String DB필드 = rs.getString("DB필드1");
-    int DB필드 = rs.getint("DB필드2");
+    String DB필드1 = rs.getString("DB필드1");
+    int DB필드2 = rs.getint("DB필드2");
 	System.out.println(%s, %d);
 }
 
