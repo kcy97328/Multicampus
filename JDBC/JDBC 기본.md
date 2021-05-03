@@ -10,8 +10,8 @@
 
 
 
-
-
+|기본 코드											|
+| ---------------------------- | ------------------------------------------------------------ |
 | 드라이버 로드                | Class.forName("oracle.jdbc.driver.OracleDriver");            |
 | 연결                         | Connection con = DriverManager.getConnection(주소, 아이디, 비밀번호); |
 | 실행                         | Statement st = con.createStatement();                        |
