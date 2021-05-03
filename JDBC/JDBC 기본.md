@@ -1,6 +1,6 @@
-### JDBC `[ Java DataBase Connectivity ]`
+# JDBC `[ Java DataBase Connectivity ]`
 
-* **`JAVA에 Oracle 연결`**
+### **`JAVA에 Oracle 연결`**
 
 > <img src="https://github.com/kcy97328/Multicampus/blob/main/JDBC/%EC%97%B0%EA%B2%B01.PNG" alt="연결1" style="zoom: 67%;" />	
 
@@ -9,7 +9,7 @@
 > <img src="https://github.com/kcy97328/Multicampus/blob/main/JDBC/%EC%97%B0%EA%B2%B02.PNG" alt="연결2" style="zoom:67%;" />	
 
 
-* **`연결 및 출력 코드`**
+### **`연결 및 출력 코드`**
 ``` java
 String url = "jdbc:oracle:thin:@호스트 이름(ip주소):포트번호/서비스(DB)이름
 String sql = "select * from table";
@@ -47,6 +47,8 @@ DB필드1, DB필드2
 | 결과 받는 빈 공간을 만들어줌   | ResultSet rs = st.executeQuery(sql);                         	   |
 | 결과를 빈공간에 삽입           | rs.next();                                                   	      |
 | "DB 필드"" 결과 출력          | String DB 필드 = rs.getString("DB 필드");                    	     |
+
+
 
 
 
