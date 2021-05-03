@@ -2,11 +2,11 @@
 
 * **`JAVA에 Oracle 연결`**
 
-> <img src="C:\Users\young\Desktop\정리\JDBC\연결1.PNG" alt="연결1" style="zoom: 67%;" />	
+> <img src="https://github.com/kcy97328/Multicampus/blob/main/JDBC/%EC%97%B0%EA%B2%B01.PNG" alt="연결1" style="zoom: 67%;" />	
 
 
 
-> <img src="C:\Users\young\Desktop\정리\JDBC\연결2.PNG" alt="연결2" style="zoom:67%;" />	
+> <img src="https://github.com/kcy97328/Multicampus/blob/main/JDBC/%EC%97%B0%EA%B2%B02.PNG" alt="연결2" style="zoom:67%;" />	
 
 
 
