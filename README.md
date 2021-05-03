@@ -22,6 +22,6 @@
 
 
 ---공부 중---<br><br>
-JDBC <br>
-Servlet & JSP
+JDBC (진행중)<br>
+Servlet & JSP (예정)
 
