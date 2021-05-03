@@ -66,5 +66,5 @@ DB필드1, DB필드2
 * SQL문에 매개변수를 사용하고, 실행전에 값을 지정할수있다.
 * SQL 문을 실행할때 execute(), executeQuery()또는 executeUpdate()를 사용한다.
 * PreparedStatement가 제공하는 메소드는 Statement가 제공하는 메소드와 거의 같다.
-
+[사용 예제](https://github.com/kcy97328/Multicampus/blob/main/DB/DataBase.md)
 
