@@ -1,6 +1,6 @@
 ## JAVA
 
-1. 아래의 출력을 참고하여 클래스를 작성. 클래스 이름은 **`BookDTO`**로 한다.
+1. 아래의 출력을 참고하여 클래스를 작성. 클래스 이름은 `**BookDTO**`로 한다.
 2. Book 정보를 저장할 클래스에 **생성자**와 **`Encapsulation(캡슐화)`**를 적용하여 생성
    (isbn, title, author, public, price, desc )
 3. BookDTO 클래스가 가지고 있는 정보를 문자열로 리턴 시켜주는 **`toString()`**을 출력을 참고하여 작성
