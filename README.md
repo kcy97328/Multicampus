@@ -23,5 +23,5 @@
 
 ---공부 중---<br><br>
 JDBC (진행중)<br>
-Servlet & JSP (예정)
+Servlet & JSP (예정) [ HTML, CSS, JDBC 사전공부 필요 ] 
 
