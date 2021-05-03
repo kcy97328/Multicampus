@@ -22,6 +22,6 @@
 
 
 ---공부 중---<br><br>
-JDBC (진행중)<br>
+[JDBC](https://github.com/kcy97328/Multicampus/blob/main/JDBC/JDBC%20%EA%B8%B0%EB%B3%B8.md) (진행중)<br>
 Servlet & JSP (예정) [ HTML, CSS, JDBC 사전공부 필요 ] 
 
