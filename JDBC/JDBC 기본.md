@@ -9,7 +9,7 @@
 > <img src="https://github.com/kcy97328/Multicampus/blob/main/JDBC/%EC%97%B0%EA%B2%B02.PNG" alt="연결2" style="zoom:67%;" />	
 
 
-#### **`연결 및 출력`**
+* **`연결 및 출력 코드`**
 ``` java
 String url = "jdbc:oracle:thin:@호스트 이름(ip주소):포트번호/서비스(DB)이름
 String sql = "select * from table";
