@@ -13,7 +13,6 @@
 
 
 | 드라이버 로드                | Class.forName("oracle.jdbc.driver.OracleDriver");            |
-| ---------------------------- | ------------------------------------------------------------ |
 | 연결                         | Connection con = DriverManager.getConnection(주소, 아이디, 비밀번호); |
 | 실행                         | Statement st = con.createStatement();                        |
 | 결과 받는 빈 공간을 만들어줌 | ResultSet rs = st.executeQuery(sql);                         |
