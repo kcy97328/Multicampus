@@ -52,8 +52,8 @@ DB필드1, DB필드2
 
 ### **`PreparedStatement`**
 
-> statement를 상속받는 인터페이스로 SQL구문을 실행시키는 기능을 갖는 객체
-> PreCompiled된 SQL문을 표현 즉, statement객체는 실행시 sql명령어를 지정하여 여러 sql구문을 하나의 statement객체로 수행이 가능하다.(재사용 가능)  하지만, preparedStatement는 객체 생성시에 지정된 sql명령어만을 실행할수 있다.  (다른 sql구문은 실행못함 ->재사용 못함)
+* statement를 상속받는 인터페이스로 SQL구문을 실행시키는 기능을 갖는 객체
+* PreCompiled된 SQL문을 표현 즉, statement객체는 실행시 sql명령어를 지정하여 여러 sql구문을 하나의 statement객체로 수행이 가능하다.(재사용 가능)  하지만, preparedStatement는 객체 생성시에 지정된 sql명령어만을 실행할수 있다.  (다른 sql구문은 실행못함 ->재사용 못함)
 * 동일한 sql구문을 반복 실행한다면 preparedStatement가 성능면에서 빠름.
 * SQL문에서 변수가 들어갈 자리는 ' ? ' 로 표시한다. , 실행시에 ?에 대응되는 값을 지정할때 setString(int parameterIndex, String X)이나 setInt(int parameterIndex, int x)와 같이  setXXX메소드를 통해 설정한다.
 그리고  PreparedStatement 는 SQL문에서 Like키워드를 사용할경우 사용할수없다.
