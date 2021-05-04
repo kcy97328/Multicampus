@@ -3,7 +3,7 @@ DataBase
 [table](https://github.com/kcy97328/Multicampus/blob/main/JDBC/zz.png)
 
 자바를 이용한 오라클(DB)
-
+```java
 BookDTO
 public class BookDTO {
 	private int isbn;	// private를 사용하여 접근을 제한(캡슐화)
@@ -81,7 +81,9 @@ public class BookDTO {
 		return info;
 	}
 }
+```
 BookTest
+```java
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -192,3 +194,4 @@ public class BookTest {
 	}
 
 }
+```
