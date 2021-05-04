@@ -18,8 +18,8 @@
 | -------- | -------- |
 | 자바     | [JAVA](https://github.com/kcy97328/Multicampus/blob/main/JAVA/JAVA.md) |
 | Database | []() |
-| Web      |[HTML]() |
-|           |[CSS]() |
+| Web      |[HTML(예정)]() |
+|           |[CSS(예정)]() |
 | Servlet & JSP  | [JDBC](https://github.com/kcy97328/Multicampus/blob/main/JDBC/JDBC%20%EA%B8%B0%EB%B3%B8.md)|
 |   | []()|
 |   | []()|
