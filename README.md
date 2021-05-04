@@ -18,7 +18,8 @@
 | -------- | -------- |
 | 자바     | [JAVA](https://github.com/kcy97328/Multicampus/blob/main/JAVA/JAVA.md) |
 | Database | []() |
-| Web      | [MVC](https://github.com/kcy97328/Multicampus/blob/main/MVC/MVC.md) |
+| Web      |[HTML]() |
+|           |[CSS]() |
 | Servlet & JSP  | [JDBC](https://github.com/kcy97328/Multicampus/blob/main/JDBC/JDBC%20%EA%B8%B0%EB%B3%B8.md)|
 |   | []()|
 |   | []()|
@@ -27,6 +28,6 @@
 
 
 ---공부 중---<br><br>
-
+[MVC](https://github.com/kcy97328/Multicampus/blob/main/MVC/MVC.md)
 Servlet & JSP (예정) [ HTML, CSS, JDBC 사전공부 필요 ] 
 
