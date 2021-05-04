@@ -52,7 +52,7 @@ DB필드1, DB필드2
 
 
 
-### **`PreparedStatement`** [사용 예제](https://github.com/kcy97328/Multicampus/blob/main/DB/DataBase.md)
+### **`PreparedStatement`** [사용 예제 이동](https://github.com/kcy97328/Multicampus/blob/main/JDBC/PrepareStatement.md)
 
 * statement를 상속받는 인터페이스로 SQL구문을 실행시키는 기능을 갖는 객체
 * PreCompiled된 SQL문을 표현 즉, statement객체는 실행시 sql명령어를 지정하여 여러 sql구문을 하나의 statement객체로 수행이 가능하다.(재사용 가능)  하지만, preparedStatement는 객체 생성시에 지정된 sql명령어만을 실행할수 있다.  (다른 sql구문은 실행못함 ->재사용 못함)
