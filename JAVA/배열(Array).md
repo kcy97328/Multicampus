@@ -104,4 +104,4 @@ String[] name = {"Kim", "Park", "Lee"};
 > score[2] = new int[7];
 > ```
 >
-> ![img](https://media.vlpt.us/images/eunseo-kim/post/273a24c6-b43d-41a1-b59b-1607e4f814c7/image.png)
+> ![img](https://github.com/kcy97328/Multicampus/blob/main/JAVA/%EA%B0%80%EB%B3%80%20%EB%B0%B0%EC%97%B4.png)
