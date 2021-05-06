@@ -31,7 +31,7 @@ for(int k=0; k<numArr.length; k++) //결과 출력
 
 ### **✔ 이중 for문 이해하기!**
 
-![img](https://media.vlpt.us/images/eunseo-kim/post/361f7e6a-c3b5-455a-baa6-71c73c0a85e8/image.png)
+![img](https://github.com/kcy97328/Multicampus/blob/main/JAVA/%EB%B0%B0%EC%97%B4%20for.png)
 
 - **배열의 마지막 요소**인 가장 오른쪽 값은 (비교한 값들 중에서) **최대값**이다.
 - 따라서 버블 정렬의 비교 작업을 반복할 수록 **비교 범위는 하나씩 줄어든다.**
