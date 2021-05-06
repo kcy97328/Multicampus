@@ -16,11 +16,11 @@
 
 | 파트     | 바로가기 |
 | -------- | -------- |
-| 자바     | [변수(Variable)]() |
-|    | [배열(Array)]() |
-|     | [조건문과 반복문]() |
-|      | [클래스와 객체]() |
-|      | [메서드]() |
+| 자바     | [변수(Variable)](https://github.com/kcy97328/Multicampus/blob/main/JAVA/변수(Variable).md) |
+|    | [배열(Array)](https://github.com/kcy97328/Multicampus/blob/main/JAVA/배열(Array).md) |
+|     | [조건문과 반복문](https://github.com/kcy97328/Multicampus/blob/main/JAVA/조건문과 반복문(if%2C switch%2C for%2C while).md) |
+|      | [클래스와 객체](https://github.com/kcy97328/Multicampus/blob/main/JAVA/클래스와 객체.md) |
+|      | [메서드](https://github.com/kcy97328/Multicampus/blob/main/JAVA/메서드(Method).md) |
 |      | [JAVA](https://github.com/kcy97328/Multicampus/blob/main/JAVA/JAVA.md) |
 | Database | []() |
 | Web      |[HTML(예정)]() |
