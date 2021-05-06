@@ -16,7 +16,12 @@
 
 | 파트     | 바로가기 |
 | -------- | -------- |
-| 자바     | [JAVA](https://github.com/kcy97328/Multicampus/blob/main/JAVA/JAVA.md) |
+| 자바     | [변수(Variable)]() |
+|    | [배열(Array)]() |
+|     | [조건문과 반복문]() |
+|      | [클래스와 객체]() |
+|      | [메서드]() |
+|      | [JAVA](https://github.com/kcy97328/Multicampus/blob/main/JAVA/JAVA.md) |
 | Database | []() |
 | Web      |[HTML(예정)]() |
 |           |[CSS(예정)]() |
