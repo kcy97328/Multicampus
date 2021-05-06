@@ -26,10 +26,7 @@
 | Web      |[HTML(예정)]() |
 |           |[CSS(예정)]() |
 | Servlet & JSP  | [JDBC](https://github.com/kcy97328/Multicampus/blob/main/JDBC/JDBC%20%EA%B8%B0%EB%B3%B8.md)|
-|   | []()|
-|   | []()|
-|   | []()|
-|   | []()|
+
 
 
 ---공부 중---<br><br>
